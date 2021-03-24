@@ -6,11 +6,19 @@
         <field name="arch" type="xml">
             <form string="Course Form">
                 <sheet>
-                    <group>
-                        <field name="name"/>
-                        <field name="description"/>
-                    </group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                            <page string="About">
+                                This is an example of notebooks
+                            </page>
+                        </notebook>
                 </sheet>
+
             </form>
         </field>
     </record>
