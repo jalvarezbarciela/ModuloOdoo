@@ -5,10 +5,7 @@
     'summary': """Manage trainings""",
 
     'description': """
-        Open Academy module for managing trainings:
-            - training courses
-            - training sessions
-            - attendees registration
+        Módulo de Odoo creado por José
     """,
 
     'author': "My Company",
@@ -25,7 +22,7 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
         'views/openacademy.xml',
